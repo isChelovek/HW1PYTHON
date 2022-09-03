@@ -18,7 +18,7 @@ def decToBool(x):
 #Функция печати таблицы 
 def printTable(firstBool, secondBool):
     print(f"~({str(firstBool[0]):5} | {str(firstBool[1]):5} | {str(firstBool[2]):5})", end=' ')
-    print(f"= ~{str(secondBool[0]):5} & ~{str(secondBool[1]):5} & ~{str(secondBool[2]):5})", end=' ')
+    print(f"= ~{str(secondBool[0]):5} & ~{str(secondBool[1]):5} & ~{str(secondBool[2]):5}", end=' ')
     print(f'-> {trueTest(firstBool, secondBool)}')
 
 
